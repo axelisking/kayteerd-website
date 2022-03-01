@@ -1,93 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html,
+body {
+  font-family: "Nunito", sans-serif;
+}
+
 .sidenav {
-    height:100%;
-    width:160px;
-    position: fixed;
-    z-index:1;
-    top:0;
-    left:0;
-    background-color: #111;
-    overflow-x: hidden;
-    padding-top:20px;
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
 .sidenav a {
-    padding:69px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display:block;
-    font-family: cursive;
+  padding: 69px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
 }
 
 .sidenav a:hover {
-    color: #f1f1f1;
+  color: #f1f1f1;
 }
 
 .main {
-    margin-left: 160px;
-    padding: 0px 10px;
+  margin-left: 160px;
+  padding: 0px 10px;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background: #fcfcfc;
+  background: #fcfcfc;
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #111;
-    height: auto;
-    width: 100vw;
-    font-family: cursive;
-    padding-top: 40px;
-    color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: #fff;
 }
 
 .footer-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 .footer-content h3 {
-    font-size: 1.8rem;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 3rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
 }
 
 .footer-content p {
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
 }
 
 .footer-bottom {
-    background: #000;
-    width: 100vw;
-    padding: 20px 0;
-    text-align: center;
+  background: #000;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
 }
 
 .footer-bottom p {
-    font-size: 14px;
-    word-spacing: 2px;
-    text-transform: capitalize;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
 }
 
 .footer-bottom span {
-    text-transform: uppercase;
-    opacity: .4;
-    font-weight: 200;
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 200;
 }
